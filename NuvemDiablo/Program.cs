@@ -52,6 +52,7 @@ namespace NuvemDiablo
 
             while (true)
             {
+                Thread.Sleep(5000);
                 Process[] all = Process.GetProcesses();
                 List<string> names = new List<string>();
                 foreach(Process proc in all)
